@@ -1,0 +1,42 @@
+{
+  "inputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "inAmount": "100000000",
+  "outputMint": "So11111111111111111111111111111111111111112",
+  "outAmount": "990145345",
+  "otherAmountThreshold": "985194619",
+  "swapMode": "ExactIn",
+  "slippageBps": 50,
+  "platformFee": null,
+  "priceImpactPct": "0.0000604031778844233950340389",
+  "routePlan": [
+    {
+      "swapInfo": {
+        "ammKey": "4U2JzGENeMhYuVMGMUeLdzPP9d4PwqnKX9iLxjwPXZU8",
+        "label": "TesseraV",
+        "inputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "outputMint": "So11111111111111111111111111111111111111112",
+        "inAmount": "100000000",
+        "outAmount": "990145345",
+        "updateContextSlot": "462544094"
+      },
+      "percent": 100,
+      "bps": null
+    }
+  ],
+  "contextSlot": 462544094,
+  "timeTaken": 0.001234424,
+  "swapUsdValue": "99.9292302320970297956785",
+  "mostReliableAmmsQuoteReport": {
+    "info": {
+      "So11111111111111111111111111111111111111112": "No MRP",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "No MRP"
+    }
+  },
+  "longtailMarketQuoteReport": null,
+  "useIncurredSlippageForQuoting": null,
+  "useRewards": null,
+  "otherRoutePlans": null,
+  "loadedLongtailToken": false,
+  "instructionVersion": null,
+  "transactionVersion": 0
+}
