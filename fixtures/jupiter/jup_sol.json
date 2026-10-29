@@ -1,0 +1,56 @@
+{
+  "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+  "inAmount": "5000000",
+  "outputMint": "So11111111111111111111111111111111111111112",
+  "outAmount": "13845746",
+  "otherAmountThreshold": "13776518",
+  "swapMode": "ExactIn",
+  "slippageBps": 50,
+  "platformFee": null,
+  "priceImpactPct": "0.0000533200975161742682738466",
+  "routePlan": [
+    {
+      "swapInfo": {
+        "ammKey": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
+        "label": "GoonFi V2",
+        "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "inAmount": "5000000",
+        "outAmount": "1398355",
+        "updateContextSlot": "462544090"
+      },
+      "percent": 100,
+      "bps": null
+    },
+    {
+      "swapInfo": {
+        "ammKey": "4U2JzGENeMhYuVMGMUeLdzPP9d4PwqnKX9iLxjwPXZU8",
+        "label": "TesseraV",
+        "inputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "outputMint": "So11111111111111111111111111111111111111112",
+        "inAmount": "1398355",
+        "outAmount": "13845746",
+        "updateContextSlot": "462544093"
+      },
+      "percent": 100,
+      "bps": null
+    }
+  ],
+  "contextSlot": 462544093,
+  "timeTaken": 0.004347073,
+  "swapUsdValue": "1.3973652926370486768338",
+  "mostReliableAmmsQuoteReport": {
+    "info": {
+      "So11111111111111111111111111111111111111112": "No MRP",
+      "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN": "No MRP",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "No MRP"
+    }
+  },
+  "longtailMarketQuoteReport": null,
+  "useIncurredSlippageForQuoting": null,
+  "useRewards": null,
+  "otherRoutePlans": null,
+  "loadedLongtailToken": false,
+  "instructionVersion": null,
+  "transactionVersion": 0
+}

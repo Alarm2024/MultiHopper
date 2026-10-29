@@ -1,0 +1,9 @@
+{
+  "routeInitTxs": [
+    {"base64": "AQIDBA=="}
+  ],
+  "orchestratorInitTx": null,
+  "sessionInitTxs": [],
+  "keeperFundingTx": null,
+  "dispersionInitTxs": []
+}

@@ -1,0 +1,57 @@
+{
+  "inputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "inAmount": "1000000",
+  "outputMint": "So11111111111111111111111111111111111111112",
+  "outAmount": "9901408",
+  "otherAmountThreshold": "9851901",
+  "swapMode": "ExactIn",
+  "slippageBps": 50,
+  "platformFee": null,
+  "priceImpactPct": "0",
+  "routePlan": [
+    {
+      "swapInfo": {
+        "ammKey": "GVJfHJsvrsWZmVj2JVQ3KyY1n7azyi8Z2FdBPxucUe58",
+        "label": "Manifest",
+        "inputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "outputMint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+        "inAmount": "1000000",
+        "outAmount": "999784",
+        "updateContextSlot": "462543971"
+      },
+      "percent": 100,
+      "bps": null
+    },
+    {
+      "swapInfo": {
+        "ammKey": "9Vh6fqJjDkqSTZ8bDXseVxGb2yQEMkEhhtte2anQCHSf",
+        "label": "Whirlpool",
+        "inputMint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+        "outputMint": "So11111111111111111111111111111111111111112",
+        "inAmount": "999784",
+        "outAmount": "9901408",
+        "updateContextSlot": "462543933"
+      },
+      "percent": 100,
+      "bps": null
+    }
+  ],
+  "contextSlot": 462544064,
+  "timeTaken": 0.000874251,
+  "swapUsdValue": "0.9999791192926889830432",
+  "mostReliableAmmsQuoteReport": {
+    "info": {
+      "So11111111111111111111111111111111111111112": "No MRP",
+      "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo": "No MRP",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "No MRP"
+    }
+  },
+  "longtailMarketQuoteReport": null,
+  "useIncurredSlippageForQuoting": null,
+  "useRewards": null,
+  "otherRoutePlans": null,
+  "loadedLongtailToken": false,
+  "instructionVersion": null,
+  "transactionVersion": 0,
+  "_fixtureSwapTransactionBase64": "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAGDbR4ue0RCxutAltRnVUkKetNEXumMqgDtAdM93bgkCndagrm1EJgKo+7pbZ3n6iV9rI4ML2O31lTbhMX4sT7yL98UZboV7d+VveMFgewvVLRcUCNN21NYpaEaJswZEPq3ZJvxcJtZwmpkiDRYUuhMQ+6GwNCevUoGmiFnZGMEW++qVCbfQlSnEdO0qrZBpgW1m/HoMAOPxE6SbnbL4BcRKq5wTSgHhFgVrI59QSdFCQ2CCkeXUFYoyUN+y3gfvMz+NuNLzxyiyv0jXr0pq46VTmvhxv6nR0WHEVcM3COkcmjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADBkZv5SEXMv/srbpyw5vnvIzlu8X3EmssQ5s6QAAAAAR51VvyMcBu7nTFbs5oFQf9sbLeo/SOUQKxzaJWvBOPBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKmMlyWPTiSJ8bs9ECkUjg2DC1oTmdr/EIQEjnvY2+n4WbQ/+if11/ZKdMCbHylYed5LCas238ndUUsyGqezjOXoXAfGXwJ+QKzjjbm4JhSBG3VVdeXaaSFjlorRZHL8QBgFCAAFAsBcFQALBgAFABsHGQEBCwYABgAYBwoBAQkoCgADBgkYCQwJFgAAEQcFAxANGRsKHA4PGgoZFwATGBsGFQUUBAIBEirlF8uXeuOtKgIAAAB0AGQAAS8AAGQBAkBCDwAAAAAAYBWXAAAAAAAyAAAKAwYAAAEJAqt5c1GUKjnF2IWw/q+xerqnOYTeZkMViHhq10ZYIEo1BR4aHRsWBwJkEyBbGCHCUcAyEd022oPxyxHWcUz36i1nQgsndJ3KOuWx3SKMvwQnKC8wAA=="
+}
